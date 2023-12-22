@@ -1,0 +1,105 @@
+
+
+.header {
+    text-align: center;
+    color: #333;
+    font-family:Bubblegum Sans;
+  }
+  
+  .formik {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 5px;
+    background: linear-gradient(45deg, #3498db, #e74c3c);
+    color: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  }
+
+  
+  .formik input {
+  
+    padding: 12px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #333;
+    transition: background-color 0.3s ease;
+  }
+  
+ 
+  
+  .formik button {
+    width: 100%;
+    padding: 12px;
+    background-color: #2ecc71;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .formik button:hover {
+    background-color: #27ae60;
+  }
+  
+  
+  .data {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    margin-left: 2px;
+  }
+  
+  .signup {
+    width: 100%;
+    padding: 10px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .signup:hover {
+    background-color: #45a049;
+  }
+  
+  .redirect {
+    text-align: center;
+    margin-top: 15px;
+    color: #ffffff;
+  }
+  
+  .redirect a {
+    color: #000000;
+    text-decoration: none;
+  }
+  
+  .redirect a:hover {
+    text-decoration: underline;
+  }
+
+
+  p{
+    color: rgb(143, 4, 4);
+  }
+
+  .popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-color: #fff;
+    border: 3px solid #06dc03;
+  }
+  
+  .popup p {
+    margin: 0;
+    font-size: 16px;
+    color: #09ac00;
+  }

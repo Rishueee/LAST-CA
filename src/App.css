@@ -1,0 +1,114 @@
+/* HEADER JSX */
+body {
+  display: flex;
+  flex-wrap: wrap;
+  font-family: sans-serif;
+}
+
+
+
+.kalvium {
+  position: relative;
+  top: 2vh;
+  width: 3vw;
+  height: 6vh;
+}
+
+input {
+  height: 30px;
+  width: 30vw;
+  padding-left: 25px;
+  margin-left: 25vw;
+    color: black;
+}
+
+.Register {
+  margin-left: 80vw;
+  border: 2px solid black;
+  padding: 1vh 4vw 1vh 4vw;
+  position: relative;
+  bottom: 3vh;
+  color: red;
+  font-size: 2.7vh;
+  font-family: sans-serif;
+  text-decoration: none;
+  border-radius: 1vw;
+}
+
+.Register:hover {
+  background: linear-gradient(90deg, #f7f46c, #fd59da);
+  color: #000000; 
+}
+
+#searchbar {
+  position: relative;
+  left: 10vw;
+}
+
+
+.boku{
+  border: 2px solid black;
+  padding: 0vh;
+  margin-top:5vh;
+  width: min-content;
+  height: min-content;
+  cursor: pointer;
+
+}
+.boku:hover{
+  box-shadow: 2px 5px black;
+  transform: translateX(-2px) translateY(-5px);
+ 
+}
+
+
+
+
+/* BOOKS */
+
+.books{
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: space-evenly;
+
+
+}
+
+#bookimg {
+  width: 20vw;
+  height: 50vh;
+
+}
+
+
+
+
+.item{
+  position: relative;
+  bottom: 5vh;
+ margin-left: 13vh;
+}
+
+
+h6{
+  position: relative;
+text-align: center;
+text-wrap: wrap;
+font-size: 3vh;
+
+
+
+}
+
+.Body{
+position: relative;
+left:9vw;
+}
+
+h1{
+  text-align: center;
+}
+
+
+
+
