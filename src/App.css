@@ -5,21 +5,11 @@ body {
   font-family: sans-serif;
 }
 
-
-
 .kalvium {
   position: relative;
   top: 2vh;
   width: 3vw;
   height: 6vh;
-}
-
-input {
-  height: 30px;
-  width: 30vw;
-  padding-left: 25px;
-  margin-left: 25vw;
-    color: black;
 }
 
 .Register {
@@ -37,78 +27,63 @@ input {
 
 .Register:hover {
   background: linear-gradient(90deg, #f7f46c, #fd59da);
-  color: #000000; 
+  color: #000000;
 }
 
+/* BOOKS */
 #searchbar {
   position: relative;
   left: 10vw;
 }
 
+input {
+  height: 30px;
+  width: 30vw;
+  padding-left: 25px;
+  margin-left: 25vw;
+  color: black;
+}
 
-.boku{
+.books {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.boku {
   border: 2px solid black;
   padding: 0vh;
-  margin-top:5vh;
+  margin-top: 5vh;
   width: min-content;
   height: min-content;
   cursor: pointer;
-
 }
-.boku:hover{
+.boku:hover {
   box-shadow: 2px 5px black;
   transform: translateX(-2px) translateY(-5px);
- 
 }
-
-
-
-
-/* BOOKS */
-
-.books{
- display: flex;
- flex-wrap: wrap;
- justify-content: space-evenly;
-
-
-}
-
 #bookimg {
   width: 20vw;
   height: 50vh;
-
 }
 
-
-
-
-.item{
+.item {
   position: relative;
   bottom: 5vh;
- margin-left: 13vh;
+  margin-left: 13vh;
 }
 
-
-h6{
+h6 {
   position: relative;
-text-align: center;
-text-wrap: wrap;
-font-size: 3vh;
-
-
-
+  text-align: center;
+  text-wrap: wrap;
+  font-size: 3vh;
 }
 
-.Body{
-position: relative;
-left:9vw;
+.Body {
+  position: relative;
+  left: 9vw;
 }
 
-h1{
+h1 {
   text-align: center;
 }
-
-
-
-
